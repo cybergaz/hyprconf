@@ -24,7 +24,7 @@ quick setup
 **To setup most of the things at ones :** (errors may raise out of nowhere)
 <br>
     
-    sh -c "$(curl -fsSL https://raw.githubusercontent.com/cybergaz/scripts/main/hypr_setup.sh)"
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/cybergaz/scripts/refs/heads/main/system/hypr_setup.sh)"
 
 </div>
 
