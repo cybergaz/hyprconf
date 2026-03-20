@@ -1,6 +1,10 @@
 <div align=center>
 
 ![stars] ![forks] ![repo-size]
+
+> **Note:** I've moved on to [Niri](https://github.com/niri-wm/niri) as my window manager. This repo and configs are no longer up to date.
+> Check out my current Niri config here: **https://github.com/cybergaz/niri.config**
+
 </div>
 
 ## Showcase :
