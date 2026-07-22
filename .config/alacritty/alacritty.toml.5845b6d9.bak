@@ -1,0 +1,71 @@
+[colors.bright]
+black = "#6c7086"
+blue = "#176bea"
+cyan = "#94e2d5"
+green = "#94e2d5"
+magenta = "#78a3fc"
+red = "#e95379"
+white = "#ffffff"
+yellow = "#fac29a"
+
+[colors.cursor]
+cursor = "#f5e0dc"
+text = "#11111b"
+
+[colors.normal]
+black = "#000000"
+blue = "#1ea0dc"
+cyan = "#72a7b1"
+green = "#27d696"
+magenta = "#cba6f7"
+red = "#F43E5C"
+white = "#cdd6f4"
+yellow = "#f09383"
+
+[colors.primary]
+# background = "#04080c"
+background = "#080a0d"
+foreground = "#d0e0f0"
+
+[colors.vi_mode_cursor]
+cursor = "#f5e0dc"
+text = "#11111b"
+
+[cursor]
+blink_interval = 500
+thickness = 0.1
+vi_mode_style = "block"
+
+[cursor.style]
+blinking = "Always"
+shape = "Underline"
+
+[env]
+TERM = "xterm-256color"
+
+# [shell]
+# program = "tmux"
+# args = ["attach"]
+# command = "notify-send hehe"
+
+[font]
+size = 11.0
+
+[font.normal]
+family = "JetBrainsMono"
+style = "semibold"
+
+[selection]
+save_to_clipboard = true
+
+[window]
+decorations = "none"
+opacity = 0.75
+
+[window.dimensions]
+columns = 115
+lines = 28
+
+[window.padding]
+x = 10
+y = 8

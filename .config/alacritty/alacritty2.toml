@@ -23,7 +23,7 @@ white = "#cdd6f4"
 yellow = "#f09383"
 
 [colors.primary]
-background = "#000000"
+background = "#070a0e"
 foreground = "#d0e0f0"
 
 [colors.vi_mode_cursor]
@@ -66,7 +66,7 @@ save_to_clipboard = true
 
 [window]
 decorations = "none"
-opacity = 0.4
+opacity = 0.96
 
 [window.dimensions]
 columns = 115

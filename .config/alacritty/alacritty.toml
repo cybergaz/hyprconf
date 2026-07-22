@@ -23,7 +23,8 @@ white = "#cdd6f4"
 yellow = "#f09383"
 
 [colors.primary]
-background = "#04080c"
+background = "#080a0d"
+# background = "#000000"
 foreground = "#d0e0f0"
 
 [colors.vi_mode_cursor]
@@ -48,18 +49,18 @@ TERM = "xterm-256color"
 # command = "notify-send hehe"
 
 [font]
-size = 12.0
+size = 11.0
 
 [font.normal]
-family = "Maple Mono"
-style = "regular"
+family = "jetbrainsmono"
+style = "semibold"
 
 [selection]
 save_to_clipboard = true
 
 [window]
 decorations = "none"
-opacity = 0.8
+opacity = 0.75
 
 [window.dimensions]
 columns = 115
@@ -69,3 +70,13 @@ lines = 28
 x = 10
 y = 8
 
+[[keyboard.bindings]]
+key = "Return"
+mods = "Shift"
+chars = "\u001B\r"
+
+# to register ctrl+; in neovim inside a tmux session
+[[keyboard.bindings]]
+key = "Semicolon"
+mods = "Control"
+chars = "\u001b[59;5u"
